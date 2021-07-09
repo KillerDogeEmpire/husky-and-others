@@ -1,5 +1,6 @@
 {
 	"type": "origins:simple",
 	"name": "§3§nCredits",
-	"description": "Version: §31.0§r\nCreator: §3KillerDoge Empire§r\nOriginal Idea: §3KillerDoge Empire"
+	"description": "Version: §31.0§r\nCreator: §3KillerDoge Empire§r\nOriginal Idea: §3KillerDoge Empire",
+	"order": 2
 }
