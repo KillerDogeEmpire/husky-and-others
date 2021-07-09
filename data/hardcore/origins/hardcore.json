@@ -7,7 +7,7 @@
     "order": 1,
     "impact": 3,
     "name": "THE SUFFERING",
-    "description": "You Were Born In Leather Armour. But You Can Only Take Off The Chestplate",
+    "description": "You Were Born In Leather Armour. But You Can Only Take Off The Chestplate. Defeat The Ender Dragon To Evolve",
     "upgrades":{
         "condition": "minecraft:end/kill_dragon",
         "origin": "hardcore:adapted_hardcore",
