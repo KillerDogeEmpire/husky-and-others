@@ -1,0 +1,36 @@
+{
+    "type": "origins:prevent_death",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [{
+                "type": "origins:clear_effect"
+            },
+            {
+                "type": "origins:apply_effect",
+                "effects": [{
+                        "effect": "minecraft:regeneration",
+                        "amplifier": 100,
+                        "duration": 900
+                    },
+                    {
+                        "effect": "minecraft:fire_resistance",
+                        "duration": 800
+                    },
+                    {
+                        "effect": "minecraft:absorption",
+                        "amplifier": 100,
+                        "duration": 99999
+                    },
+                    {
+                        "effect": "minecraft:resistance",
+                        "amplifier": 300,
+                        "duration": 9999999999999999999999999999999999999999,
+                        "cooldown": 1000000
+                    }
+                ]
+            }
+        ]
+    },
+    "name": "this is not the end",
+    "description": " you simply just can't kill God Just like that "
+}

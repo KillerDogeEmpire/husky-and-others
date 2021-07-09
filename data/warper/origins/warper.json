@@ -1,0 +1,26 @@
+{
+    "powers": [
+   "warper:dimension_switch",
+   "warper:dimension",
+   "warper:double_jump",
+   "origins:fall_immunity",
+   "warper:speed",
+   "warper:size",
+   "warper:wetskin",
+   "origins:natural_armor",
+   "warper:health2",
+   "origins:strong_arms_break_speed",
+   "origins:strong_arms",
+   "warper:credit"
+
+
+
+
+
+    ],
+    "icon": "end_stone",
+    "order": 1,
+    "impact": 3,
+    "name": "Dimensional Warper",
+    "description": "You are a dimensional warper."
+}

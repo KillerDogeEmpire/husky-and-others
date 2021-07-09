@@ -1,0 +1,35 @@
+{
+    "name": "Light-Lure",
+    "description": "You are drawn to the light. Being around light sources gives you strength and resistance.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 5,
+    "duration_per_stack": 10,
+     "effects":[{
+         "effect": "minecraft:strength",
+        "duration": 1,
+        "amplifier": 0,
+        "is_ambient": false,
+        "show_particles": false,
+     "show_icon": true
+        },
+        {
+            "effect": "minecraft:resistance",
+            "duration": 1,
+            "amplifier": 0,
+            "is_ambient": false,
+            "show_particles": false,
+         "show_icon": true
+        }
+    ],
+    
+        "condition": {
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:light_level",
+				"light_type": "block",
+                "comparison": ">",
+                "compare_to": "6"
+    }
+}
+}

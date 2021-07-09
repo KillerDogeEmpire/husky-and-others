@@ -1,0 +1,37 @@
+{
+	"powers": [
+             "huskyandothers:creative",
+             "huskyandothers:health",
+             "origins:phasing",
+            "origins:phantomize",
+            "origins:strong_arms",
+            "origins:strong_arms_break_speed",
+            "origins:extra_reach",
+            "extraorigins:small_appetite",
+            "huskyandothers:speed",
+            "origins:sprint_jump",
+            "origins:fall_immunity", 
+            "huskyandothers:unkillable"
+            
+
+
+
+
+
+
+
+
+
+
+
+
+    ],
+
+
+"icon": "minecraft:command_block",
+"order": 1,
+"impact": 3,
+"name": "God",
+"description": "You are god therefore you can toggle creative mode with your primary ability"
+
+}

@@ -1,0 +1,44 @@
+{
+	"type":"origins:active_self",
+	"entity_action": {
+		"type":"origins:and",
+		"actions":[
+			{
+				"type": "origins:execute_command",
+				"command": "give @s minecraft:salmon 2",
+				"permission_level":4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:entity.player.splash player @s ~ ~ ~ 1 1 0",
+				"permission_level":4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:entity.polar_bear.hurt player @s ~ ~ ~ 1 1 0",
+				"permission_level":4
+			}
+		]
+	},
+	"cooldown": 400,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 15
+	},
+		"key": {
+		"key": "key.origins.secondary_active"
+	},
+	    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+			"type": "origins:submerged_in",
+			"fluid": "minecraft:water"
+            }
+        ]
+    },
+	"name": "Salmon-Swiper[Secondary]",
+	"description": "Bears are good at catching salmon in streams. When submerged in water you can catch a couple salmon."
+}
+

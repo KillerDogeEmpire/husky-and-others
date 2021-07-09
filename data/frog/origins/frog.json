@@ -1,0 +1,24 @@
+{
+    "powers": [
+      "huskyandothers:aqua_affinity",
+      "huskyandothers:water_breathing",
+      "huskyandothers:size",
+      "huskyandothers:pounce",
+      "origins:water_vision",
+      "origins:aqua_affinity",
+      "origins:aquatic",
+      "origins:swim_speed",
+      "origins:sprint_jump",
+      "origins:fall_immunity",
+      "huskyandothers:potion_effect",
+      "huskyandothers:slime_skin",
+      "huskyandothers:dog_pouch"
+    ],
+
+
+"icon": "minecraft:lily_pad",
+    "order": 1,
+    "impact": 3,
+    "name": "Frog",
+    "description": "You are a frog"
+}

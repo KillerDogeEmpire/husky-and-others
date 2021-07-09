@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "pixel:riggings",
+        "pixel:size2.0",
+        "extraorigins:nimble",
+        "extraorigins:small_appetite",
+        "pixel:arms",
+        "pixel:credit",
+        "origins:no_shield"
+    ],
+
+
+"icon": "minecraft:anvil",
+    "order": 1,
+    "impact": 3,
+    "name": "Pixel",
+    "description": "You are an evolved inchling that is 1 pixel tall"
+}

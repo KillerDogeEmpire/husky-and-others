@@ -1,0 +1,53 @@
+{
+	"type": "origins:multiple",
+	"phasing": {
+		"type": "origins:phasing",
+		"blacklist": true,
+		"render_type": "blindness",
+		"view_distance": 10,
+		"block_condition": {
+			"type": "origins:in_tag",
+			"tag": "origins:unphasable"
+		},
+		"phase_down_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_timer",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	},
+	"timer": {
+		"type": "origins:cooldown",
+		"cooldown": 400,
+		"comment": "//You can change the 'cooldown' value to whatever you want (remember, the cooldown is measured in ticks)",
+		"hud_render": {
+			"should_render": true,
+			"bar_index": 3,
+			"comment": "//You can edit this 'hud_render' as you please."
+		}
+	},
+	"trigger": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:trigger_cooldown",
+			"power": "*:*_timer"
+		},
+		"cooldown": 400,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"name": "NAME",
+	"description": "DESCRIPTION"
+}

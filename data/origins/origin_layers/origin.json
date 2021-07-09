@@ -1,17 +1,13 @@
 {
   "replace": false,
   "origins": [
-    "huskyandothers:husky",
-    "huskyandothers:meme_ant",
-    "huskyandothers:god",
-    "huskyandothers:pixel",
-    "huskyandothers:frog",
-    "huskyandothers:bird",
-    "huskyandothers:ant",
-    "huskyandothers:earth_borne",
-    "huskyandothers:warper"
-
-    
+    "husky:husky",
+    "god:god",
+    "pixel:pixel",
+    "frog:frog",
+    "bird:bird",
+    "ant:ant",
+    "earthborne:earth_borne",
+    "warper:warper"
   ]
-   
 }

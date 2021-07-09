@@ -1,0 +1,21 @@
+{
+    "powers": [
+   "huskyandothers:riggings",
+   "huskyandothers:size2.0",
+   "huskyandothers:fragile",
+   "extraorigins:small_appetite",
+   "extraorigins:nimble",
+   "huskyandothers:arms",
+   "origins:water_vulnerability"
+
+
+
+
+
+    ],
+    "icon": "dirt",
+    "order": 1,
+    "impact": 3,
+    "name": "Ant",
+    "description": "You are a ANT."
+}

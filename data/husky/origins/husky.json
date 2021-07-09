@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"origins:carnivore",
+		"origins:more_exhaustion",
+		"origins:sprint_jump",
+		"origins:fall_immunity",
+		"husky:health",
+		"husky:spawn",
+		"husky:size",
+		"husky:dog_pouch",
+		"husky:speed",
+		"husky:pounce",
+		"husky:pounce_arialdamage",
+		"origins:natural_armor",
+		"husky:skin",
+		"husky:wet_wool",
+		"husky:credit"
+	],
+	"icon": "minecraft:black_wool",
+	"order": 1,
+	"impact": 3,
+	"name": "Husky",
+	"description": "This Is My First Ever Data Pack. It Is Based On My Puppy."
+}
