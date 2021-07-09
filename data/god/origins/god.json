@@ -1,17 +1,18 @@
 {
 	"powers": [
-             "huskyandothers:creative",
-             "huskyandothers:health",
+             "god:creative",
+             "god:health",
              "origins:phasing",
             "origins:phantomize",
             "origins:strong_arms",
             "origins:strong_arms_break_speed",
             "origins:extra_reach",
             "extraorigins:small_appetite",
-            "huskyandothers:speed",
+            "god:speed",
             "origins:sprint_jump",
             "origins:fall_immunity", 
-            "huskyandothers:unkillable"
+            "god:unkillable",
+            "god:credit"
             
 
 
