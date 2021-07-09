@@ -1,8 +1,8 @@
 {
 	"powers": [
 		"origins:elytra",
-		"huskyandothers:launch",
-	     "huskyandothers:launch2"
+		"bird:launch",
+	     "bird:launch2"
 	],
 	"icon": "minecraft:chicken",
 	"order": 1,
