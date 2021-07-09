@@ -1,18 +1,19 @@
 {
     "powers": [
-      "huskyandothers:aqua_affinity",
-      "huskyandothers:water_breathing",
-      "huskyandothers:size",
-      "huskyandothers:pounce",
+      "frog:aqua_affinity",
+      "frog:water_breathing",
+      "frog:size",
+      "frog:pounce",
       "origins:water_vision",
       "origins:aqua_affinity",
       "origins:aquatic",
       "origins:swim_speed",
       "origins:sprint_jump",
       "origins:fall_immunity",
-      "huskyandothers:potion_effect",
-      "huskyandothers:slime_skin",
-      "huskyandothers:dog_pouch"
+      "frog:potion_effect",
+      "frog:slime_skin",
+      "frog:dog_pouch",
+      "frog:credit"
     ],
 
 

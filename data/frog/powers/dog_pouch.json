@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+  "name": "Stomach",
+  "description": "You carry a secret stash of items in in your stomach. You can access this pouch by using your secondary."
+}
