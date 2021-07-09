@@ -1,0 +1,20 @@
+{
+  "type": "origins:attribute",
+  "modifiers":
+  [
+    {
+      "name": "FragmentationHealth",
+      "attribute": "minecraft:generic.max_health",
+      "value": -4.0,
+      "operation": "addition"
+    },
+    {
+      "name": "FragmentationSizeBase",
+      "attribute": "",
+      "value": 30.0,
+      "operation": "addition"
+    }
+  ],
+  "name": "Fragmentation",
+  "description": "When others would die, you shrink to half your size. (Twice per life)"
+}

@@ -1,0 +1,6 @@
+{
+    "type": "origins:simple",
+    "name": "Bite Sized",
+	"description": "You are 4 times smaller than a regular person. You have 7 less hearts, 0.5 more attack speed, 0.25 less attack range, and 1 less build range.",
+	"hidden":false
+}

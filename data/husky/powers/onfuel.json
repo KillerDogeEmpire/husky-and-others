@@ -1,0 +1,172 @@
+{
+  "type":"origins:multiple",
+  "regen_lock": {
+      "type":"origins:action_over_time",
+      "interval": 5,
+      "condition": {
+          "type": "origins:resource",
+          "resource": "*:onfuel_fuel",
+          "comparison": "==",
+          "compare_to": 0
+      },
+      "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "*:onfuel_invis",
+        "change": -1
+    }
+  },
+  "regen": {
+      "type":"origins:action_over_time",
+      "interval": 5,
+      "condition": {
+          "type": "origins:resource",
+          "resource": "*:onfuel_invis",
+          "comparison": "==",
+          "compare_to": 0
+      },
+      "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "*:onfuel_fuel",
+        "change": 1
+    }
+  },
+  "regen_2": {
+      "type":"origins:action_over_time",
+      "interval": 5,
+      "condition": {
+          "type": "origins:resource",
+          "resource": "*:onfuel_invis",
+          "comparison": "==",
+          "compare_to": 0
+      },
+      "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "*:onfuel_juice",
+        "change": 1
+    }
+  },
+  "consume_2": {
+      "type":"origins:action_over_time",
+      "interval": 6,
+      "condition": {
+          "type": "origins:resource",
+          "resource": "*:onfuel_invis",
+          "comparison": "==",
+          "compare_to": 1
+      },
+      "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "*:onfuel_juice",
+        "change": -1
+    }
+  },
+  "consume": {
+      "type":"origins:action_over_time",
+      "interval": 6,
+      "condition": {
+          "type": "origins:resource",
+          "resource": "*:onfuel_invis",
+          "comparison": "==",
+          "compare_to": 1
+      },
+      "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "*:onfuel_fuel",
+        "change": -1
+    }
+  },
+  "fuel": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 100,
+    "hud_render": {
+  		"should_render": true,
+  		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+  		"bar_index": 5,
+      "condition": {
+          "type": "origins:resource",
+          "resource": "*:onfuel_invis",
+          "comparison": "==",
+          "compare_to": 1
+      }
+  	}
+  },
+  "juice": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 100,
+    "hud_render": {
+  		"should_render": true,
+  		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+  		"bar_index": 17,
+      "condition": {
+          "type": "origins:resource",
+          "resource": "*:onfuel_invis",
+          "comparison": "==",
+          "compare_to": 0
+      }
+  	}
+  },
+  "phantom":{
+    "type": "origins:phasing",
+    "blacklist": true,
+    "render_type": "blindness",
+    "view_distance": 8,
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "origins:unphasable"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:onfuel_invis",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "invis": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "hud_render": {
+  		"should_render": false
+  	}
+  },
+  "power":{
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+        "type": "origins:resource",
+        "resource":"*:onfuel_invis",
+        "comparison":"==",
+        "compare_to": 1
+    }
+  },
+  "invis_toggle": {
+    "type":"origins:active_self",
+    "cooldown": 0,
+    "hud_render": {
+  		"should_render": false
+  	},
+    "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:onfuel_invis",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "if_action": {
+      "type": "origins:change_resource",
+      "resource": "*:onfuel_invis",
+      "change": -1
+    },
+    "else_action": {
+      "type": "origins:change_resource",
+      "resource": "*:onfuel_invis",
+      "change": 1
+    }
+   }
+ },
+  "name":"Phasing",
+  "description":"You can phase through solid blocks, but you use fuel to do so."
+}
