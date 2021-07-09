@@ -1,6 +1,8 @@
 {
   "type": "origins:modify_player_spawn",
-  "dimension": "minecraft:the_overworld",
-  "biome": "minecraft:snowy_tundra",
-  "spawn_strategy": "center"
+  "name": "Home",
+  "description": "You will spawn in an snowy tundra.",
+  "dimension": "minecraft:overworld",
+  "biome": "snowy_tundra",
+  "spawn_strategy": "default"
 }
