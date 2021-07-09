@@ -1,0 +1,6 @@
+{
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:the_overworld",
+    "biome": "minecraft:snowy_tundra",
+    "spawn_strategy": "center"
+  }
