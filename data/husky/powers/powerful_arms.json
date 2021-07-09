@@ -1,0 +1,51 @@
+{
+    "type": "origins:target_action_on_hit",
+    "name": "Powerful Arms",
+    "description": "Your arms have greater reach and can launch any living entity up into the air by holding shift and punching with nothing in your hands.",
+    "hidden": false,
+    "entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:add_velocity",
+				"space": "velocity_horizontal_normalized",
+				"set": false,
+				"y": 2,
+				"z": 0
+			},
+			{
+				"type": "origins:exhaust",
+				"amount": 1.5
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:entity.ravager.attack player @a[distance=0..25] ~ ~ ~ 1 1 1",
+				"permission_level": 4
+			}
+		]
+	},
+    "cooldown": 400,
+		"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 16
+	},
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+        {
+            "type": "origins:sneaking"
+        },
+		{
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+			"item": "minecraft:air"
+      }
+    }
+	}
+        ]    
+    }
+}

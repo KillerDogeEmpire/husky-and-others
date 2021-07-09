@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"origins:elytra",
+		"huskyandothers:launch",
+	     "huskyandothers:launch2"
+	],
+	"icon": "minecraft:chicken",
+	"order": 1,
+	"impact": 3,
+	"name": "Bird",
+	"description": "You are bird man that can fly."
+} 

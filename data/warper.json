@@ -1,0 +1,25 @@
+{
+    "powers": [
+   "huskyandothers:dimension_switch",
+   "huskyandothers:dimension",
+   "huskyandothers:double_jump",
+   "origins:fall_immunity",
+   "huskyandothers:speed",
+   "huskyandothers:size",
+   "huskyandothers:wetskin",
+   "origins:natural_armor",
+   "huskyandothers:health2",
+   "origins:strong_arms_break_speed",
+   "origins:strong_arms"
+
+
+
+
+
+    ],
+    "icon": "end_stone",
+    "order": 1,
+    "impact": 3,
+    "name": "Dimensional Warper",
+    "description": "You are a dimensional warper."
+}

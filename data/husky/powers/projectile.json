@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:projectile"
+  },
+  "modifier": {
+    "value": 1,
+    "operation": "multiply_base"
+      },
+   "hidden": false,
+   "name": "Large-Target",
+   "description": "Your large size means you are a larger target for projectiles. Projectiles deal 2x more damage."
+ }

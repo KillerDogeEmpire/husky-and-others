@@ -1,0 +1,7 @@
+{
+	"type": "origins:prevent_sleep",
+	"set_spawn_point": true ,
+	"message": "You are far too large to sleep in this bed!",
+	"name": "Small Beds",
+	"description": "You are far too large to be able to sleep in beds. You cannot sleep."
+}
