@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "hardcore:sword"
+    ],
+    "icon": "minecraft:black_shulker_box",
+    "order": 1,
+    "impact": 3,
+    "name": "THE SUFFERING",
+    "description": "You Were Born In Leather Armour. But You Can Only Take Off The Chestplate",
+    "upgrades":{
+        "condition": "minecraft:end/kill_dragon",
+        "origin": "upgraded:adapted_hardcore",
+        "announcement": "You have evolved... Best check your origin again..."}
+}

@@ -8,6 +8,8 @@
     "bird:bird",
     "ant:ant",
     "earthborne:earth_borne",
-    "warper:warper"
+    "warper:warper",
+    "hardcore:hardcore",
+    "hardcore:adapted_hardcore"
   ]
 }
