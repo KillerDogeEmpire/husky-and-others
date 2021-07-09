@@ -1,7 +1,8 @@
 {
     "unchoosable": true,
     "powers": [
-        "hardcore:sword"
+        "hardcore:sword",
+        "hardcore:fist"
     ],
     "icon": "minecraft:yellow_shulker_box",
     "order": 1,

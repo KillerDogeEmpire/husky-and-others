@@ -1,0 +1,19 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "name": "Powerful Fist",
+    "description": "If you don't want to use you trusty Morning Wood, you can use your fist. You're fists deal more damage.",
+    "modifier": {
+      "value": 1800,
+      "operation": "addition"
+    },
+        "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+             "item_condition": {
+             "type": "origins:ingredient",
+              "ingredient": {
+               "item": "minecraft:air"
+             }
+       }
+  }
+  }
