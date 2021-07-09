@@ -1,9 +1,0 @@
-{
-    "type": "origins:entity_glow",
-    "entity_condition": {
-        "type": "origins:in_tag",
-        "tag": "ender_dragon",
-        "inverted": true
-    },
-    "hidden": true
-}
