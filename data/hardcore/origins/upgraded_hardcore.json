@@ -6,7 +6,7 @@
         "hardcore:dart_sound",
         "hardcore:binded"
     ],
-    "icon": "minecraft:yellow_shulker_box",
+    "icon": "minecraft:gray_shulker_box",
     "order": 1,
     "impact": 3,
     "unchoosable": true,
