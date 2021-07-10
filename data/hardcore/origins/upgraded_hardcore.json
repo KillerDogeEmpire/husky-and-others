@@ -2,7 +2,9 @@
     "unchoosable": true,
     "powers": [
         "hardcore:sword",
-        "hardcore:fist"
+        "hardcore:fist",
+        "hardcore:dart",
+        "hardcore:dart_sound"
     ],
     "icon": "minecraft:yellow_shulker_box",
     "order": 1,
