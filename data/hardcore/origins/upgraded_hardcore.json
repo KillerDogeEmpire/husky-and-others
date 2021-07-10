@@ -4,7 +4,8 @@
         "hardcore:sword",
         "hardcore:fist",
         "hardcore:dart",
-        "hardcore:dart_sound"
+        "hardcore:dart_sound",
+        "hardcore:binded"
     ],
     "icon": "minecraft:yellow_shulker_box",
     "order": 1,
