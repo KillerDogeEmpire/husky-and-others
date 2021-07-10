@@ -11,7 +11,7 @@
     "upgrades": [
         {
           "condition": "minecraft:end/kill_dragon",
-          "origin": "hardcore:adapted_hardcore",
+          "origin": "hardcore:upgraded_hardcore",
           "announcement": "You have evolved... Best check your origin again..."
         }
       ]
