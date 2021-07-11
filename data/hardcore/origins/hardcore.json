@@ -2,7 +2,8 @@
     "powers": [
         "hardcore:sword",
         "hardcore:fist",
-        "hardcore:binded"
+        "hardcore:binded",
+        "hardcore:leather"
     ],
     "icon": "minecraft:black_shulker_box",
     "order": 1,
