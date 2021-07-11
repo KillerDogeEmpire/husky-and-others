@@ -1,0 +1,15 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -20
+    },
+    "tick_rate": 20,
+    "condition": {
+    "type": "origins:resource",
+    "resource": "soultrader:soulresource",
+    "comparison": "==",
+    "compare_to": 1
+}
+}

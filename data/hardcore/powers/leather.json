@@ -3,23 +3,23 @@
     "head": {
       "type": "origins:armor_value",
       "comparison": ">",
-      "compare_to": 2
+      "compare_to": 1
     },
-    "name": "Iron Armour",
-    "description": "You can't wear any armour better than iron",
+    "name": "Leather",
+    "description": "You can't wear any Chestplate better than leather. you can take off the leather chestplate to wear an elytra.",
     "chest": {
       "type": "origins:armor_value",
       "comparison": ">",
-      "compare_to": 6
+      "compare_to": 3
     },
     "legs": {
       "type": "origins:armor_value",
       "comparison": ">",
-      "compare_to": 5
+      "compare_to": 2
     },
     "feet": {
       "type": "origins:armor_value",
       "comparison": ">",
-      "compare_to": 2
+      "compare_to": 1
     }
   }
