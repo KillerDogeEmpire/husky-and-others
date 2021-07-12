@@ -6,7 +6,12 @@
         "hardcore:dart_sound",
         "hardcore:binded",
         "hardcore:leather",
-        "hardcore:teleport",
+        "hardcore:smelt",
+        "hardcore:tags",
+        "hardcore:consume",
+        "hardcore:smelt_mainhand",
+        "hardcore:limit",
+        "hardcore:composter",
         "hardcore:reach"
     ],
     "icon": "minecraft:gray_shulker_box",

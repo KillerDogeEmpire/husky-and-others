@@ -3,7 +3,9 @@
         "hardcore:sword",
         "hardcore:fist",
         "hardcore:binded",
-        "hardcore:leather"
+        "hardcore:leather", 
+        "hardcore:teleport",
+        "hardcore:compost"
     ],
     "icon": "minecraft:black_shulker_box",
     "order": 1,
