@@ -11,6 +11,7 @@
 		"#gold_ores",
 		"#lapis_ores",
 		"#iron_ores",
+		"#diamond_ores",
 		"minecraft:kelp",
 		"#logs_that_burn",
 		"minecraft:mutton",
@@ -27,6 +28,8 @@
 		"#sand",
 		"#stone_crafting_materials",
 		"minecraft:wet_sponge",
-		"minecraft:stone"
+		"minecraft:diamond_ore"
+		
+		
 	]
 }
