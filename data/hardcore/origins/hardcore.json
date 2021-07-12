@@ -5,7 +5,7 @@
         "hardcore:binded",
         "hardcore:leather", 
         "hardcore:teleport",
-        "hardcore:compost"
+        "hardcore:composter"
     ],
     "icon": "minecraft:black_shulker_box",
     "order": 1,
