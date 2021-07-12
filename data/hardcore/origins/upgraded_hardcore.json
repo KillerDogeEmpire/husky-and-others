@@ -2,8 +2,7 @@
     "powers": [
         "hardcore:sword",
         "hardcore:fist",
-        "hardcore:dart",
-        "hardcore:dart_sound",
+        "op:crystal_corruption",
         "hardcore:binded",
         "hardcore:leather",
         "mainhand_smelt:smelt_mainhand",
