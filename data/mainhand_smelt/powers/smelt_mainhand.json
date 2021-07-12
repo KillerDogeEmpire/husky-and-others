@@ -1,0 +1,20 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 5,
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "execute as @s run function mainhand_smelt:smelt"
+	},
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "mainhand_smelt:hand_smeltable"
+			}
+		}
+	},
+	"name": "Hot Touch",
+	"description": "Your hands are hot enough to smelt certain items at a rate of 4/sec. They aren't hot enough to smelt everything, sadly..."
+}
