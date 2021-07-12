@@ -7,7 +7,7 @@
         "command": "/execute at @s run spreadplayers ~ ~ 20 20 false @s"
     },
     "key": {
-        "key": "secondary",
+        "key": "primary",
         "continuous": false
     },
     "hud_render": {
