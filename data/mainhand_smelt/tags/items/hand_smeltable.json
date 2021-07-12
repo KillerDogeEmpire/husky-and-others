@@ -26,6 +26,7 @@
 		"minecraft:salmon",
 		"#sand",
 		"#stone_crafting_materials",
-		"minecraft:wet_sponge"
+		"minecraft:wet_sponge",
+		"minecraft:stone"
 	]
 }
