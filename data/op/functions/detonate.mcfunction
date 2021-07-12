@@ -1,0 +1,1 @@
+execute at @e[tag=summoned,distance=1..25] run summon snowball ~ ~3 ~
