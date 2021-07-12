@@ -10,7 +10,7 @@
         "mainhand_smelt:hand_smeltable",
         "mainhand_smelt:consume",
         "mainhand_smelt:limit",
-        "mainhand_smelt:smelt_smelt",
+        "mainhand_smelt:smelt",
         "hardcore:composter",
         "hardcore:reach"
     ],
