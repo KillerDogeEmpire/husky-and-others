@@ -1,4 +1,6 @@
 {
+  "name": "Extra Reach",
+  "description": "you have longer reach to punch enemys",
     "type": "origins:attribute",
     "modifiers": [
       {

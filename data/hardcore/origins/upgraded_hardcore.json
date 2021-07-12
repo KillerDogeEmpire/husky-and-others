@@ -6,10 +6,11 @@
         "hardcore:dart_sound",
         "hardcore:binded",
         "hardcore:leather",
-     
-      
-        
-        
+        "mainhand_smelt:smelt_mainhand",
+        "mainhand_smelt:hand_smeltable",
+        "mainhand_smelt:consume",
+        "mainhand_smelt:limit",
+        "mainhand_smelt:smelt_smelt",
         "hardcore:composter",
         "hardcore:reach"
     ],
