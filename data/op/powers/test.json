@@ -51,12 +51,7 @@
     }
     ,
     "3":{
-        "entity_action": {
-            "type": "origins:execute_command",
-            "command": "/power grant ant:arms",
-            "permission_level": 4
-          }
-    
+ 
     },
     "4":{
     
