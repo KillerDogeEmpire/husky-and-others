@@ -1,0 +1,13 @@
+{
+    "powers": [
+
+"op:killerdj"
+
+    ],
+    "icon": "minecraft:gray_shulker_box",
+    "order": 1,
+    "impact": 3,
+    "unchoosable": false,
+    "name": "Test",
+    "description": "For Testing Powers"
+}
