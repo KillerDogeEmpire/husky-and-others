@@ -10,6 +10,7 @@
     "earthborne:earth_borne",
     "warper:warper",
     "hardcore:hardcore",
-    "hardcore:upgraded_hardcore"
+    "hardcore:upgraded_hardcore",
+    "test:test"
   ]
 }
