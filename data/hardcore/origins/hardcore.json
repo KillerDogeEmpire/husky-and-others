@@ -4,8 +4,9 @@
         "hardcore:fist",
         "hardcore:binded",
         "hardcore:leather", 
-        "hardcore:teleport",
-        "hardcore:composter"
+      "hardcore:totem",
+        "hardcore:composter",
+        "hardcore:wall_run"
     ],
     "icon": "minecraft:black_shulker_box",
     "order": 1,

@@ -13,7 +13,8 @@
         "mainhand_smelt:limit",
         "mainhand_smelt:smelt",
         "hardcore:composter",
-        "hardcore:reach"
+        "hardcore:reach",
+        "hardcore:totem"
     ],
     "icon": "minecraft:gray_shulker_box",
     "order": 1,
