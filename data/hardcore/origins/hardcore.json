@@ -6,7 +6,8 @@
         "hardcore:leather", 
       "hardcore:totem",
         "hardcore:composter",
-        "hardcore:wall_run"
+        "hardcore:wall_run",
+        "hardcore:tools"
     ],
     "icon": "minecraft:black_shulker_box",
     "order": 1,

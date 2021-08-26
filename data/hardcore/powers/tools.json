@@ -1,0 +1,29 @@
+{
+    "name": "Power Of The Wooden Gods",
+    "description": "The Wooden Gods Only Want You To Deal Damage With A Wooden Sword And Your Fists.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -1
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "hardcore:blacklist"
+                    }
+                },
+                {
+                    "type": "origins:harvest_level",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        }
+    }
+}

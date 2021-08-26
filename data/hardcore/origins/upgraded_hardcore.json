@@ -1,25 +1,20 @@
 {
-    "powers": [
-        "hardcore:sword",
-        "hardcore:fist",
-        "hardcore:axe",
-      "hardccore:sword_power",
-        "hardcore:dart",
-        "hardcore:binded",
-        "hardcore:leather",
-        "mainhand_smelt:smelt_mainhand",
-        "mainhand_smelt:hand_smeltable",
-        "mainhand_smelt:consume",
-        "mainhand_smelt:limit",
-        "mainhand_smelt:smelt",
-        "hardcore:composter",
-        "hardcore:reach",
-        "hardcore:totem"
-    ],
-    "icon": "minecraft:gray_shulker_box",
-    "order": 1,
-    "impact": 3,
-    "unchoosable": true,
-    "name": "THE IMPASTA",
-    "description": "You are the greatest player at minecraft hardcore. You killed the dragon with only a wooden sword and your fist. Now you are stronger and you can eat real food."
+  "powers": [
+    "hardcore:sword",
+    "hardcore:fist",
+    "hardcore:tools",
+    "hardcore:dart",
+    "hardcore:binded",
+    "hardcore:leather",
+    "mainhand_smelt:smelt_mainhand",
+    "hardcore:composter",
+    "hardcore:reach",
+    "hardcore:totem"
+  ],
+  "icon": "minecraft:gray_shulker_box",
+  "order": 1,
+  "impact": 3,
+  "unchoosable": true,
+  "name": "THE IMPASTA",
+  "description": "You are the greatest player at minecraft hardcore. You killed the dragon with only a wooden sword and your fist. Now you are stronger and you can eat real food."
 }
