@@ -12,7 +12,7 @@
             },
             {
                 "operation": "multiply_total",
-                "value": 0.25
+                "value": -100
             }
         ],
         "damage_condition": {
