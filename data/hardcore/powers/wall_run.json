@@ -1,4 +1,6 @@
 {
+    "name": "Wall Run",
+    "description": "You Can Run On Walls",
     "type": "origins:multiple",
     "resource":
     {

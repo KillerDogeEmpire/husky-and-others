@@ -9,7 +9,8 @@
     "mainhand_smelt:smelt_mainhand",
     "hardcore:composter",
     "hardcore:reach",
-    "hardcore:totem"
+    "hardcore:totem",
+    "hardcore:shield"
   ],
   "icon": "minecraft:gray_shulker_box",
   "order": 1,
