@@ -1,0 +1,13 @@
+{
+    "unchoosable": "true",
+      "powers": [
+          "admin:creative",
+          "admin:power"
+      ],
+      "icon": "minecraft:spawner",
+      "order": 1,
+      "impact": 3,
+      "name": "Adult Admin",
+      "description": "You Are Now A Adult Admin You Have Gained More Powers"
+    }
+    

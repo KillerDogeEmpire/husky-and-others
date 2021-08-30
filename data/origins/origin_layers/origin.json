@@ -10,6 +10,8 @@
     "earthborne:earth_borne",
     "warper:warper",
     "hardcore:hardcore",
-    "hardcore:upgraded_hardcore"
+    "hardcore:upgraded_hardcore",
+    "admin:admin",
+    "admin:adult_admin"
   ]
 }

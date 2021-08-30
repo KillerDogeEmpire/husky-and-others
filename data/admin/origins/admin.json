@@ -1,0 +1,18 @@
+{
+  "unchoosable": "false",
+    "powers": [
+        "admin:creative"
+    ],
+    "icon": "minecraft:spawner",
+    "order": 1,
+    "impact": 3,
+    "name": "Admin",
+    "description": "You Were Born As A Baby Admin So You Need To Get Older To Get All Your Powers",
+    "upgrades": [
+		{
+			"condition": "minecraft:nether/obtain_blaze_rod",
+			"origin": "admin:adult_admin",
+			"announcement": "You have evolved... Best check your origin again..."
+		}
+	]
+}
