@@ -1,14 +1,40 @@
 {
-    "hidden": true,
-    "cooldown": 1,
-    "hud_render": {
-        "should_render": false
+    
+    "type": "origins:multiple",
+    "name": "Pl",
+    "description": "Pl",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 10,
+        "hud_render": {
+            "should_render": true
+        }
     },
-    "type": "origins:active_self",
-    "entity_action": {
-        "type": "origins:execute_command",
-        "command": "origin set @s origins:origin earthborne:earth_borne",
-        "permission_level": 4
-    },
-    "key": "secondary"
+    "active": {
+        "type": "origins:active_self",
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_resource",
+                "comparison": "==",
+                "compare_to": 10
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_resource",
+                "change": -10
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_resource",
+                "change": 1
+            }
+        }
+    }
 }

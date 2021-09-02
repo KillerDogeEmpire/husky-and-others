@@ -2,7 +2,9 @@
     "unchoosable": "true",
       "powers": [
           "admin:creative",
-          "admin:power"
+          "admin:power",
+          "admin:dart",
+          "admin:block3"
       ],
       "icon": "minecraft:spawner",
       "order": 1,

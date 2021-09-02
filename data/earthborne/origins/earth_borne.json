@@ -27,6 +27,7 @@
         "earthborne:mirror_body",
         "earthborne:eat_magmablock",
         "earthborne:block"
+        
     ],
     "icon": "minecraft:coal",
     "order": 1,
